@@ -294,11 +294,6 @@
         function toggleProfile() {
             const container = document.querySelector('.container');
             container.classList.toggle('expanded');
-
-            // যদি প্রোফাইল বন্ধ হয়, তখন পেজ রিফ্রেশ হবে
-            if (!container.classList.contains('expanded')) {
-                window.location.reload(); // রিফ্রেশ করার জন্য
-            }
         }
 
         // Change Image on Click
